@@ -71,9 +71,9 @@ private:
 class Solution
 {
 public:
-    string intToRoman(int num)
+    int romanToInt(string s)
     {
         SingleMap *sm = SingleMap::getInstance();
-        return sm->i2r[num];
+        return sm->r2i[s];
     }
 };
