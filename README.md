@@ -10,9 +10,11 @@ LeetCode solutions by alpc62.
 |3|[Longest Substring Without Repeating Characters][3]|[C++](0003.longest-substring-without-repeating-characters.cpp)|2017/08/29|Medium|
 |4|[Median of Two Sorted Arrays][4]|[C++](0004.median-of-two-sorted-arrays.cpp)|2017/08/29|Hard|
 |5|[Longest Palindromic Substring][5]|[C++](0005.longest-palindromic-substring.cpp)|2017/08/29|Medium|
+|6|[ZigZag Conversion][6]|[C++](0006.zigzag-conversion.cpp)|2017/08/30|Medium|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
 [3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
 [4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
 [5]:https://leetcode.com/problems/longest-palindromic-substring/
+[6]:https://leetcode.com/problems/zigzag-conversion/
