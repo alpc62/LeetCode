@@ -18,6 +18,7 @@ LeetCode solutions by alpc62.
 |11|[Container With Most Water][11]|[C++](0011.container-with-most-water.cpp)|2017/08/30|Medium|
 |12|[Integer to Roman][12]|[C++](0012.integer-to-roman.cpp)|2017/08/30|Medium|
 |13|[Roman to Integer][13]|[C++](0013.roman-to-integer.cpp)|2017/08/30|Easy|
+|14|[Longest Common Prefix][14]|[C++](0014.longest-common-prefix.cpp)|2017/08/30|Easy|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -32,3 +33,4 @@ LeetCode solutions by alpc62.
 [11]:https://leetcode.com/problems/container-with-most-water/
 [12]:https://leetcode.com/problems/integer-to-roman/
 [13]:https://leetcode.com/problems/roman-to-integer/
+[14]:https://leetcode.com/problems/longest-common-prefix/
