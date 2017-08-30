@@ -13,6 +13,7 @@ LeetCode solutions by alpc62.
 |6|[ZigZag Conversion][6]|[C++](0006.zigzag-conversion.cpp)|2017/08/30|Medium|
 |7|[Reverse Integer][7]|[C++](0007.reverse-integer.cpp)|2017/08/30|Easy|
 |8|[String to Integer (atoi)][8]|[C++](0008.string-to-integer-atoi.cpp)|2017/08/30|Medium|
+|9|[Palindrome Number][9]|[C++](0009.palindrome-number.cpp)|2017/08/30|Easy|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -22,3 +23,4 @@ LeetCode solutions by alpc62.
 [6]:https://leetcode.com/problems/zigzag-conversion/
 [7]:https://leetcode.com/problems/reverse-integer/
 [8]:https://leetcode.com/problems/string-to-integer-atoi/
+[9]:https://leetcode.com/problems/palindrome-number/
