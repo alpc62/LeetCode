@@ -34,6 +34,7 @@ LeetCode solutions by alpc62.
 |27|[Remove Element][27]|[C++](0027.remove-element.cpp)|2017/09/01|Easy|
 |28|[Implement strStr()][28]|[C++](0028.implement-strstr.cpp)|2017/09/01|Easy|
 |29|[Divide Two Integers][29]|[C++](0029.divide-two-integers.cpp)|2017/09/01|Medium|
+|30|[Substring with Concatenation of All Words][30]|[C++](0030.substring-with-concatenation-of-all-words.cpp)|2017/09/01|Hard|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -64,3 +65,4 @@ LeetCode solutions by alpc62.
 [27]:https://leetcode.com/problems/remove-element/
 [28]:https://leetcode.com/problems/implement-strstr/
 [29]:https://leetcode.com/problems/divide-two-integers/
+[30]:https://leetcode.com/problems/substring-with-concatenation-of-all-words/
