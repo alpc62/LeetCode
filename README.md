@@ -27,6 +27,7 @@ LeetCode solutions by alpc62.
 |20|[Valid Parentheses][20]|[C++](0020.valid-parentheses.cpp)|2017/09/01|Easy|
 |21|[Merge Two Sorted Lists][21]|[C++](0021.merge-two-sorted-lists.cpp)|2017/09/01|Easy|
 |22|[Generate Parentheses][22]|[C++](0022.generate-parentheses.cpp)|2017/09/01|Medium|
+|23|[Merge k Sorted Lists][23]|[C++](0023.merge-k-sorted-lists.cpp)|2017/09/01|Hard|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -50,3 +51,4 @@ LeetCode solutions by alpc62.
 [20]:https://leetcode.com/problems/valid-parentheses/
 [21]:https://leetcode.com/problems/merge-two-sorted-lists/
 [22]:https://leetcode.com/problems/generate-parentheses/
+[23]:https://leetcode.com/problems/merge-k-sorted-lists/
