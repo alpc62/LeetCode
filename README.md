@@ -24,6 +24,7 @@ LeetCode solutions by alpc62.
 |17|[Letter Combinations of a Phone Number][17]|[C++](0017.letter-combinations-of-a-phone-number.cpp)|2017/09/01|Medium|
 |18|[4Sum][18]|[C++](0018.4sum.cpp)|2017/09/01|Medium|
 |19|[Remove Nth Node From End of List][19]|[C++](0019.remove-nth-node-from-end-of-list.cpp)|2017/09/01|Medium|
+|20|[Valid Parentheses][20]|[C++](0020.valid-parentheses.cpp)|2017/09/01|Easy|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -44,3 +45,4 @@ LeetCode solutions by alpc62.
 [17]:https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 [18]:https://leetcode.com/problems/4sum/
 [19]:https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+[20]:https://leetcode.com/problems/valid-parentheses/
