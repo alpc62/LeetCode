@@ -32,6 +32,7 @@ LeetCode solutions by alpc62.
 |25|[Reverse Nodes in k-Group][25]|[C++](0025.reverse-nodes-in-k-group.cpp)|2017/09/01|Hard|
 |26|[Remove Duplicates from Sorted Array][26]|[C++](0026.remove-duplicates-from-sorted-array.cpp)|2017/09/01|Easy|
 |27|[Remove Element][27]|[C++](0027.remove-element.cpp)|2017/09/01|Easy|
+|28|[Implement strStr()][28]|[C++](0028.implement-strstr.cpp)|2017/09/01|Easy|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -60,3 +61,4 @@ LeetCode solutions by alpc62.
 [25]:https://leetcode.com/problems/reverse-nodes-in-k-group/
 [26]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 [27]:https://leetcode.com/problems/remove-element/
+[28]:https://leetcode.com/problems/implement-strstr/
