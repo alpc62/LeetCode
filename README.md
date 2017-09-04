@@ -37,6 +37,7 @@ LeetCode solutions by alpc62.
 |30|[Substring with Concatenation of All Words][30]|[C++](0030.substring-with-concatenation-of-all-words.cpp)|2017/09/01|Hard|
 |31|[Next Permutation][31]|[C++](0031.next-permutation.cpp)|2017/09/04|Medium|
 |32|[Longest Valid Parentheses][32]|[C++](0032.longest-valid-parentheses.cpp)|2017/09/04|Hard|
+|33|[Search in Rotated Sorted Array][33]|[C++](0033.search-in-rotated-sorted-array.cpp)|2017/09/04|Medium|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -69,4 +70,5 @@ LeetCode solutions by alpc62.
 [29]:https://leetcode.com/problems/divide-two-integers/
 [30]:https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 [31]:https://leetcode.com/problems/next-permutation/
-[31]:https://leetcode.com/problems/longest-valid-parentheses/
+[32]:https://leetcode.com/problems/longest-valid-parentheses/
+[33]:https://leetcode.com/problems/search-in-rotated-sorted-array/
