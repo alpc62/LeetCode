@@ -35,6 +35,7 @@ LeetCode solutions by alpc62.
 |28|[Implement strStr()][28]|[C++](0028.implement-strstr.cpp)|2017/09/01|Easy|
 |29|[Divide Two Integers][29]|[C++](0029.divide-two-integers.cpp)|2017/09/01|Medium|
 |30|[Substring with Concatenation of All Words][30]|[C++](0030.substring-with-concatenation-of-all-words.cpp)|2017/09/01|Hard|
+|31|[Next Permutation][31]|[C++](0031.next-permutation.cpp)|2017/09/04|Medium|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -66,3 +67,4 @@ LeetCode solutions by alpc62.
 [28]:https://leetcode.com/problems/implement-strstr/
 [29]:https://leetcode.com/problems/divide-two-integers/
 [30]:https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+[31]:https://leetcode.com/problems/next-permutation/
