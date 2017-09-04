@@ -38,6 +38,7 @@ LeetCode solutions by alpc62.
 |31|[Next Permutation][31]|[C++](0031.next-permutation.cpp)|2017/09/04|Medium|
 |32|[Longest Valid Parentheses][32]|[C++](0032.longest-valid-parentheses.cpp)|2017/09/04|Hard|
 |33|[Search in Rotated Sorted Array][33]|[C++](0033.search-in-rotated-sorted-array.cpp)|2017/09/04|Medium|
+|34|[Search for a Range][34]|[C++](0034.search-for-a-range.cpp)|2017/09/04|Medium|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -72,3 +73,4 @@ LeetCode solutions by alpc62.
 [31]:https://leetcode.com/problems/next-permutation/
 [32]:https://leetcode.com/problems/longest-valid-parentheses/
 [33]:https://leetcode.com/problems/search-in-rotated-sorted-array/
+[34]:https://leetcode.com/problems/search-for-a-range/
