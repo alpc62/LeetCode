@@ -1,6 +1,6 @@
 struct zh
 {
-    int st, next, widx;
+    int next, widx;
 }tmp;
 
 class Solution
@@ -24,10 +24,24 @@ public:
             }
             return res;
         }
+
+        map<string, int> word_map;
+        for (int i = 0; i < nword; i++)
+        {
+            word_map[words[i]]++;
+        }
+        words.clear();
+        map<int, int> idx2num;
+        for (map<string, int>::iterator it = word_map.begin(); it != word_map.end(); ++it)
+        {
+            idx2num[words.size()] = it->second;
+            words.push_back(it->first);
+        }
+        nword = words.size();
+
         map<int, zh> p;
         for (int i = 0; i < slen; i++)
         {
-            tmp.st = i;
             tmp.next = -1;
             tmp.widx = -1;
             for (int j = 0; j < nword; j++)
@@ -54,24 +68,74 @@ public:
             }
             p[i] = tmp;
         }
-        set<int> idx_set;
+        vector<bool> simple_enough;
         for (int i = 0; i < slen; i++)
         {
-            idx_set.clear();
+            simple_enough.push_back(true);
+        }
+        map<int, int> mapxx;
+        vector<int> jump;
+        for (int i = 0; i < slen; i++)
+        {
+            if (!simple_enough[i])
+            {
+                continue;
+            }
+            mapxx.clear();
+            jump.clear();
             int now = i;
             while (now >= 0 && now < slen)
             {
+                jump.push_back(now);
                 int widx = p[now].widx;
-                if (widx < 0 || idx_set.count(widx) > 0)
+                if (widx < 0)
                 {
                     break;
                 }
-                idx_set.insert(widx);
+                mapxx[widx]++;
                 now = p[now].next;
             }
-            if (idx_set.size() == nword)
+            bool is_enough = true;
+            for (map<int, int>::iterator it = idx2num.begin(); it != idx2num.end(); ++it)
             {
-                res.push_back(i);
+                if (mapxx[it->first] < it->second)
+                {
+                    is_enough = false;
+                    break;
+                }
+            }
+            if (!is_enough)
+            {
+                for (size_t j = 0; j < jump.size(); j++)
+                {
+                    simple_enough[jump[j]] = false;
+                }
+            }
+            else
+            {
+                mapxx = idx2num;
+                for (size_t j = 0; j < jump.size(); j++)
+                {
+                    int widx = p[jump[j]].widx;
+                    if (widx < 0 || mapxx[widx] <= 0)
+                    {
+                        break;
+                    }
+                    mapxx[widx]--;
+                }
+                bool is_match = true;
+                for (map<int, int>::iterator it = mapxx.begin(); it != mapxx.end(); ++it)
+                {
+                    if (it->second > 0)
+                    {
+                        is_match = false;
+                        break;
+                    }
+                }
+                if (is_match)
+                {
+                    res.push_back(i);
+                }
             }
         }
         return res;
