@@ -41,6 +41,7 @@ LeetCode solutions by alpc62.
 |34|[Search for a Range][34]|[C++](0034.search-for-a-range.cpp)|2017/09/04|Medium|
 |35|[Search Insert Position][35]|[C++](0035.search-insert-position.cpp)|2017/09/04|Easy|
 |36|[Valid Sudoku][36]|[C++](0036.valid-sudoku.cpp)|2017/09/04|Medium|
+|37|[Sudoku Solver][37]|[C++](0037.sudoku-solver.cpp)|2017/09/04|Hard|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
@@ -78,3 +79,4 @@ LeetCode solutions by alpc62.
 [34]:https://leetcode.com/problems/search-for-a-range/
 [35]:https://leetcode.com/problems/search-insert-position/
 [36]:https://leetcode.com/problems/valid-sudoku/
+[37]:https://leetcode.com/problems/sudoku-solver/
