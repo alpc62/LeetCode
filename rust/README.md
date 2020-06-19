@@ -5,7 +5,7 @@ LeetCode solutions by alpc62.
 
 |NO.|Title|Solution|Add Date|Difficulty|
 |---|-----|--------|--------|----------|
-|1|[Two Sum][1]|[C++](0001.two-sum.rust)|2020/06/19|Easy
+|1|[Two Sum][1]|[C++](0001_two-sum.rs)|2020/06/19|Easy
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
