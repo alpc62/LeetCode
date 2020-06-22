@@ -6,6 +6,10 @@ LeetCode solutions by alpc62.
 |NO.|Title|Solution|Add Date|Difficulty|
 |---|-----|--------|--------|----------|
 |1|[Two Sum][1]|[C++](0001_two-sum.rs)|2020/06/19|Easy
+|2|[Add Two Numbers][2]|[C++](0002_add-two-numbers.rs)|2020/06/22|Medium|
+|3|[Longest Substring Without Repeating Characters][3]|[C++](0003_longest-substring-without-repeating-characters.rs)|2020/06/22|Medium|
+|4|[Median of Two Sorted Arrays][4]|[C++](0004_median-of-two-sorted-arrays.rs)|2020/06/22|Hard|
+|5|[Longest Palindromic Substring][5]|[C++](0005_longest-palindromic-substring.rs)|2020/06/22|Medium|
 
 [1]:https://leetcode.com/problems/two-sum/
 [2]:https://leetcode.com/problems/add-two-numbers/
